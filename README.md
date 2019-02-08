@@ -7,7 +7,7 @@ library to export internal jar files and copy files to different directories
     InputStream origem = Db.class.getResourceAsStream("/br/com/sisdespesas/files/logo.png");
     FileManager.exportInternalFile(origem, destino);
  
-<h2>Copy a file from one directory to another</h2>
+<h2>Copy a file from one directory to another</h2> 
  
    File arquivoOrigem = new File("d:\logo.png");
    File arquivoDestino = new File("c:\logo.png");
